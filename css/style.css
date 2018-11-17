@@ -23,7 +23,8 @@ margin-right: 30px;}
 
 nav ul li {margin-left: 35px;
 font-family: lato;
-color: green;
+color: olivedrab;
+    font-weight: 600;
 }
 
 
@@ -53,12 +54,15 @@ text-align: center;}
 .description {margin: 0 10% 0% 10%;
     background-color: rgba(250, 250,250, .3);
 color: rgba(34,140,34, .7);
-font-weight: 400;}
+font-weight: 450;
+padding-bottom: 10px;}
 
 .description h2 {font-weight: 550;
 margin-bottom: 20px;
 background-color:forestgreen;
 color: white;}
+.description p {text-align: center;
+line-height: 40px;}
 
 .patron {width: 60%;
     height: 200px;
@@ -98,9 +102,38 @@ margin: auto;
 margin-top: 200px;
 border-radius: 5px 5px 5px 5px;
     padding-left: 15%;
+    padding-right: 15%;
     padding-top: 1em; 
     padding-bottom: 2em;
 }
+.Labels {display: inline-block;
+width: 50px;}
+.Format {margin: 50px;
+    margin-left: 0;
+font-family: lato;}
+.Format input {
+width: 100%;
+    max-width: 400px;
+text-align: center;
+    border-radius: 3px;
+    border: 1px gray solid;
+    margin-left: 15px;
+}
+
+.secondFormat {display: flex;
+flex-direction: column;
+width: 100%;
+    height: 130px;
+font-family: lato;
+}
+.contact h2 {color: rgba(0, 0, 0, .9)}
+.secondFormat textarea {height: 500px;}
+
+.contact button {margin-top: 40px;
+font-family: lato;
+margin-left: 43%;}
+
+
 .contact-info h2 {font-family: raleway;
 font-size: 25px;}
 ul {list-style: none;}
@@ -121,22 +154,8 @@ width:100%;
 margin-top: 1.5em;}
 a:hover {text-decoration: none;}
 
-.Format {margin: 50px;
-    margin-left: 0;
-font-family: lato;}
-.Format input {
-width: 60%;
-text-align: center;
-    border-radius: 3px;
-    border: 1px gray solid;
-    margin-left: 15px;
-}
 
-.secondFormat {display: flex;
-flex-direction: column;
-width: 63%;
-    height: 130px;
-font-family: lato;}
 .contact button:hover {border: 1px rgba(130,200,250, .6) solid;}
-.contact-info {background-color: white;
-margin-top: 10vh;}
+footer {background-color: white;
+    margin-top: 30vh;
+}
