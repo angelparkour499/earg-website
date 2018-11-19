@@ -108,17 +108,20 @@ border-radius: 5px 5px 5px 5px;
     padding-bottom: 2em;
 }
 .Labels {display: inline-block;
-width: 50px;}
+width: 50px;
+text-align: center;}
 .Format {margin: 50px;
     margin-left: 0;
+    margin-right: 0;
 font-family: lato;}
 .Format input {
-width: 100%;
-    max-width: 400px;
-text-align: center;
+width: 90%;
+    height: 30px;
+    max-width: 400p;
+    padding-left: 7px;
     border-radius: 3px;
     border: 1px gray solid;
-    margin-left: 15px;
+    margin-left: 15p;
 }
 
 .secondFormat {display: flex;
@@ -128,12 +131,22 @@ width: 100%;
 font-family: lato;
 }
 .contact h2 {color: rgba(0, 0, 0, .9)}
-.secondFormat textarea {height: 500px;}
+.secondFormat textarea {height: 500px;
+padding-left: 7px}
 
 .contact button {margin-top: 40px;
-font-family: lato;
-margin-left: 43%;}
+font-family: roboto;
+margin-left: 40%;
+width: 100px;
+height: 40px;
+    background-color: rgb(241,241,241);
+    border: 1px green solid;
+border-radius: 5px;
+ -webkit-transition-duration: 0.4s;}
 
+.contact button:hover {border: 1px lightblue solid;
+background-color: green;
+color: white;}
 
 .contact-info h2 {font-family: raleway;
 font-size: 25px;}
@@ -156,7 +169,7 @@ margin-top: 1.5em;}
 a:hover {text-decoration: none;}
 
 
-.contact button:hover {border: 1px rgba(150,150,150, .6) solid;}
+
 footer {background-color: white;
     margin-top: 30vh;
 }
