@@ -35,9 +35,28 @@ color: white}
 header {height: 100vh;}
 
 
-header img {  margin-top: 25vh;
+header img {  top: 30vh;
+    position: relative;
     height: auto;
 }
+.description {margin: 0 10% 0% 10%;
+    background-color: rgba(250, 250,250, .3);
+color: rgba(34,140,34, .7);
+font-weight: 450;
+padding-bottom: 10px;
+position: relative;
+top: 60px;}
+
+.description h2 {font-weight: 400;
+    padding: 5px;
+margin-bottom: 20px;
+background-color:forestgreen;
+color: white;
+text-align: center;}
+
+.description p {text-align: center;
+line-height: 40px;}
+
 
 
 .grid-container {display: grid;
@@ -47,25 +66,9 @@ grid-gap: 50px;
 justify-content: center;
 width: vw}
 
-.carambañero h2 {font-family: raleway;
-margin: auto;
-text-align: center;}
 
-.description {margin: 0 10% 0% 10%;
-    background-color: rgba(250, 250,250, .3);
-color: rgba(34,140,34, .7);
-font-weight: 450;
-padding-bottom: 10px;
-position: relative;
-top: 60px;}
 
-.description h2 {font-weight: 550;
-    padding: 5px;
-margin-bottom: 20px;
-background-color:forestgreen;
-color: white;}
-.description p {text-align: center;
-line-height: 40px;}
+
 
 .patron {width: 60%;
     height: 200px;
@@ -100,84 +103,141 @@ font-family: lato;
     font-size: 25px;
 padding-top: 12px;}
 
+
+
 .contact {width: 70vw;
     background-color: rgba(250, 250, 250, .9);
 height: auto;
 margin: auto;
 margin-top: 200px;
+    margin-bottom: 100px;
 border-radius: 5px 5px 5px 5px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top:  2em; 
     padding-bottom: 2em;
 }
 
+.contact h2 {text-align: center}
+
+.attachment {border-radius: 4px;
+    -webkit-transition-duration: 0.2s;}
+
+.attachment:hover {border: 1px green solid; }
+
+.attachment:hover p {background-color: green;
+color: white}
+
+.contact p {color: rgba(250, 250, 250, .1);
+-webkit-transition-duration: 0.2s;
+margin-bottom: 0;
+padding-left: 10px;}
+
+
 .Labels {display: inline-block;
-width: 50px;
+width: 60px;
 text-align: center;}
+
+
+
+
+
+#reach-us {width: 100%;
+background-color: white;
+padding: 20px 20% 20px 20%; 
+}
+
+#reach-us h2 {color: rgba(0, 0, 0, .9);
+    text-align: center;}
 
 .Format {margin: 50px;
     margin-left: 0;
     margin-right: 0;
 font-family: lato;}
 
+
+#email {float: right}
+
 .Format input {
-width: 90%;
-    height: 30px;
+width: 48%;
+    height: 35px;
     max-width: 400p;
     padding-left: 7px;
     border-radius: 3px;
     border: 1px gray solid;
-    margin-left: 15p;
+    text-align: center;
+    background-color: rgba(248, 248, 248, .8)
 }
 
 .secondFormat {display: flex;
 flex-direction: column;
 width: 100%;
-    height: 130px;
+    height: 160px;
 font-family: lato;
 }
-.contact h2 {color: rgba(0, 0, 0, .9)}
+
 
 .secondFormat textarea {height: 500px;
-padding-left: 7px}
+padding: 7px;
+border-radius: 4px;}
 
-.contact button {margin-top: 40px;
+
+#reach-us button {margin-top: 40px;
 font-family: roboto;
-margin-left: 40%;
+margin-left: 43%;
 width: 100px;
 height: 40px;
-    background-color: green;
-    color: white;
-    border: 1px green solid;
+    background-color:rgb(241,241,241);
+    color: black;
+    border: 2px green solid;
 border-radius: 5px;
  -webkit-transition-duration: 0.4s;}
 
-.contact button:hover {border: 2px green solid;
-background-color: rgb(241,241,241);
-color: black;}
+#reach-us button:hover {border: 2px green solid;
+background-color: green;
+color: white;}
+
+
 
 footer {background-color: black;
 color: rgba(230, 230, 230, 1);
-    margin-top: 30vh;
+    margin-top: 30h;
 padding-top: 15px}
 
-.contact-info h2 {font-family: raleway;
-font-size: 25px;}
+footer h2 {font-family: raleway;
+font-size: 25px;
+margin: auto;
+text-align: center;}
+
+
 ul {list-style: none;}
-.contact-info ul {display: flex;
+
+
+footer ul {display: flex;
     justify-content: flex-end;
 margin: 10px;
     width: 80%;
+    margin-right: 30px;
 margin-bottom: px}
-.contact-info ul li {margin-left: 10px;}
 
-.contact-info h3 {font-family: roboto;
+
+footer ul li {margin-left: 25px;
+font-size: 25px;
+-webkit-transition-duration: 0.4s;}
+
+footer h3 {font-family: roboto;
 justify-content: flex-start;}
+
+footer ul li i {
+font-size: 50px;
+width: auto;
+height: auto;}
 
 .flex-contact {display:flex;
     flex-direction: row;
-width:100%;
+    width: 100%;
     justify-content: flex-end;
-margin-top: 1.5em;}
+    margin-top: 1.5em;}
+
+a {color: white;}
 a:hover {text-decoration: none;}
