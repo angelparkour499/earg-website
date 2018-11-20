@@ -132,9 +132,10 @@ top: 0px;}
 
 .attachment {border-radius: 4px;
     padding-left: 0px;
-    -webkit-transition-duration: 0.2s;}
+    -webkit-transition-duration: 0.4s;}
 
-.attachment:hover {border: 2px green solid; }
+.attachment:hover {border: 2px green solid; 
+background-color: lightgreen}
 
 .attachment:hover p {background-color: green;
 color: white}
@@ -146,7 +147,7 @@ color: white}
 
 .atachment h4, h3 {margin-left: 15px;}
 .contact p {color: rgba(250, 250, 250, .1);
--webkit-transition-duration: 0.2s;
+-webkit-transition-duration: 2s;
 margin-bottom: 0;
 padding-left: 10px;}
 
