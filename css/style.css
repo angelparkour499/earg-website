@@ -134,7 +134,7 @@ top: 0px;}
     padding-left: 0px;
     -webkit-transition-duration: 0.2s;}
 
-.attachment:hover {border: 1px green solid; }
+.attachment:hover {border: 2px green solid; }
 
 .attachment:hover p {background-color: green;
 color: white}
