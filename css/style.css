@@ -39,7 +39,15 @@ header img {  top: 30vh;
     position: relative;
     height: auto;
 }
-.description {margin: 0 10% 0% 10%;
+
+.carambañero {height: 100%;
+    width: 100%;
+    background-image: url(assets/DSC_0109.jpg);
+    background-repeat: no-repeat;
+    padding-top: 70px;
+background-size: 100vw 100%;}
+
+.description {margin: 0 0% 0% 0%;
     background-color: rgba(250, 250,250, .3);
 color: rgba(34,140,34, .7);
 font-weight: 450;
@@ -55,7 +63,9 @@ color: white;
 text-align: center;}
 
 .description p {text-align: center;
-line-height: 40px;}
+line-height: 40px;
+padding-left: 15%;
+padding-right: 15%;}
 
 
 
@@ -106,7 +116,7 @@ padding-top: 12px;}
 
 
 .contact {width: 70vw;
-    background-color: rgba(250, 250, 250, .9);
+    background-color: rgba(240, 240, 240, 1);
 height: auto;
 margin: auto;
 margin-top: 200px;
