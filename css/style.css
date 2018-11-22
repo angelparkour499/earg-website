@@ -70,11 +70,11 @@ background-color: rgba(250, 250,250, .3);}
 .grid-container {display: grid;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 grid-template-rows: 390px;
-grid-gap: 40px;
+grid-gap: 5vw;
 justify-content: center;
 margin: auto;
-margin-left: 8%;
-margin-right: 8%;}
+padding-left: 5%;
+padding-right: 5%;}
 
 
 
@@ -98,7 +98,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 5px;
 margin-top: 100px;
     width: 250px;
-min-width: 200px;
+min-width: 250px;
 height: 300px;}
 
 
@@ -272,11 +272,20 @@ height: auto;}
 a {color: white;}
 a:hover {text-decoration: none;}
 
+
+@media (max-width: 1200px){
+    .grid-container {padding-left: 1%;}
+}
+
+@media (max-width: 1050px) {.grid-container {padding-left: 5%;}}
+
 @media (max-width: 650px){
     .Format {display: flex;
     flex-direction: column;
     margin-bottom: 10px;
     margin-top: 15px;}
+    .description p {margin-left: 0;
+    margin-right: 0;}
     
     #email {margin-top: 10px;}
     
@@ -287,10 +296,10 @@ a:hover {text-decoration: none;}
     
     .work {margin-top: 0;}
     
-    header img {max-width: 90vw;}
+    header img {max-width: 85vw;}
     
     .grid-container {grid-template-rows: 300px;
-    padding-left: 15%;}
+    padding-left: 5%;}
     
 
     
@@ -308,3 +317,5 @@ a:hover {text-decoration: none;}
     
     #reach-us button {margin-left: 32%;}
 }
+
+@media (max-width: 550px) {.grid-container {padding-left: 23%;}}
