@@ -138,7 +138,8 @@ top: 0px;}
     -webkit-transition-duration: 0.4s;}
 
 .attachment:hover {border: 2px green solid; 
-background-color: lightgreen}
+background-color: lightgreen;
+color: white;}
 
 .attachment:hover p {background-color: green;
 color: white;}
@@ -208,8 +209,9 @@ border-radius: 4px;}
 #reach-us button {margin-top: 40px;
 font-family: roboto;
 margin-left: 43%;
+    margin-bottom: 6vh;
 width: 100px;
-height: 40px;
+height: 48px;
     background-color:rgb(241,241,241);
     color: black;
     border: 2px green solid;
