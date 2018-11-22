@@ -183,7 +183,7 @@ font-family: lato;}
 
 .Format input {
 width: 48%;
-    height: 35px;
+    height: 45px;
     max-width: 400p;
     padding-left: 7px;
     border-radius: 3px;
@@ -195,7 +195,7 @@ width: 48%;
 .secondFormat {display: flex;
 flex-direction: column;
 width: 100%;
-    height: 160px;
+    height: 200px;
 font-family: lato;
 }
 
@@ -240,8 +240,9 @@ footer ul {display: flex;
     justify-content: flex-end;
 margin: 10px;
     width: 80%;
-    margin-right: 30px;
-margin-bottom: px}
+    margin-right: 45px;
+margin-bottom: 15px;
+padding-bottom: 15px;}
 
 
 footer ul li {margin-left: 25px;
