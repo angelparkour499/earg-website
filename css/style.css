@@ -70,7 +70,7 @@ background-color: rgba(250, 250,250, .3);}
 .grid-container {display: grid;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 grid-template-rows: 390px;
-grid-gap: 5%;
+grid-gap: 55px;
 justify-content: center;
 margin: auto;
 padding-left: 5%;
